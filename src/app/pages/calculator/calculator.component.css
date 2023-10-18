@@ -1,0 +1,132 @@
+.mycalc
+{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(149, 36, 36);
+}
+.all-btn
+{
+    display: flex;
+
+}
+.all-btn-numbers
+{
+    display: flex;
+    width: 210px;
+    flex-wrap: wrap;
+}
+.all-btn-signs
+{
+    display: flex;
+    flex-direction: column;
+}
+.all-btn-numbers button
+{
+    background-color: white;
+    border: none;
+    margin: 10px;
+    color: rgb(149, 36, 36);
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.all-btn-signs button
+{
+    background-color: burlywood;
+    background-color: white;
+    border: none;
+    margin: 10px;
+    color: rgb(149, 36, 36);
+    font-size: 20px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+}
+.all-btn-signs button:hover
+{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(255,252,55);
+
+}
+
+.all-btn-numbers button:hover
+{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(255,255,255);
+}
+.btn-extra
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.btn-extra button
+{
+    background-color: burlywood;
+    text-align: center;
+}
+.btn-extra button:hover
+{
+    cursor: pointer;
+    box-shadow: 0px 0px 20px 5px rgb(255,252,55);
+}
+.btn-clear-equals{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.btn-clear-equals button
+{
+    width: 120px;
+    padding: 10px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    border: none;
+}
+#clear
+{
+    color: rgb(255, 45, 45);
+    background-color:black ;
+    font-weight: 700;
+}
+#equals
+{
+    color: red;
+    background-color:black ;
+    font-weight: 700;
+    font-size: 20px;
+}
+#clear:hover,#equals:hover
+{
+    background-color: white;
+    cursor: pointer;
+
+}
+input
+{
+    width: 80%;
+    margin: 10px 0px;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 700;
+    border-radius: 15px;
+    border: 1px solid gray;
+}
+input:focus
+{
+outline: none;
+border: 1px solid rgb(85, 85, 85);
+}

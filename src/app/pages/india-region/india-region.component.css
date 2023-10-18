@@ -1,0 +1,18 @@
+.table
+{
+    margin: auto;
+    margin: 0 auto !important;
+
+}
+
+.table .thead-custom th{
+    background-color: rgb(5, 68, 104) !important;
+    color: white;
+    padding: 4px 4px;
+}
+
+.table .tbody-custom td{
+    border: 1px solid black;
+    font-size: medium;
+    padding: 2px;
+}
