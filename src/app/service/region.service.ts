@@ -18,6 +18,6 @@ export class RegionService {
 public getRegion():Observable<regionModel[]>
 {
 
-  return this.http.get<regionModel[]>("http://himanshusingh.me:8080/api/region");
+  return this.http.get<regionModel[]>("http://15.207.155.119:8080/api/region");
 }
 }
